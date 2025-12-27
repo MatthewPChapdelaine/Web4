@@ -1,0 +1,16 @@
+# Rust
+target/
+Cargo.lock
+
+# Godot
+.godot/
+*.import
+export_presets.cfg
+
+# Logs
+growth_log.txt
+generated_code.rs
+
+# OS
+.DS_Store
+Thumbs.db

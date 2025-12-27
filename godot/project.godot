@@ -1,0 +1,23 @@
+[application]
+
+config/name="Web4 Metaverse"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.1")
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+
+[xr]
+
+shaders/enabled=true
+
+[xr/openxr]
+
+enabled=true
+default_action_map="res://openxr_action_map.tres"  # Placeholder for action map

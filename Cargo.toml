@@ -1,0 +1,10 @@
+[package]
+name = "web4"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+petgraph = "0.6"
+rand = "0.8"
+web3 = "0.18"
+tokio = { version = "1", features = ["full"] }
